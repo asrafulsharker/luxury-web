@@ -18,7 +18,7 @@ export const SliderData =[
         alt: 'House',
     },
     {
-        title: 'Luxury Villa in Bali, Indonishia',
+        title: 'Luxury Villa in Bali, nirob',
         price: '$554656757',
         path:'/homes',
         label: 'View Home',
