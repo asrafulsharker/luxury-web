@@ -1,0 +1,60 @@
+export const SliderData =[
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageOne,
+        alt: 'House',
+    },
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageTwo,
+        alt: 'House',
+    },
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageThree,
+        alt: 'House',
+    },
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageFour,
+        alt: 'House',
+    },
+];
+export const SliderDataTwo =[
+    {
+        title: 'House in Indoniwsia, navea',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageFive,
+        alt: 'House',
+    },
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: ImageSix,
+        alt: 'House',
+    },
+    {
+        title: 'Luxury Villa in Bali, Indonishia',
+        priceP: '$554656757',
+        path:'/homes',
+        label: 'View Home',
+        image: 'ImageSeven',
+        alt: 'House',
+    },
+];

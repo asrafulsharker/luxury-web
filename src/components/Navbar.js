@@ -3,6 +3,7 @@ import styled,{css} from 'styled-components/macro';
 import {Link} from 'react-router-dom';
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
+import {FaBars} from 'react-icons/fa'
 
 const Nav = styled.nav`
     height: 60px;
@@ -29,8 +30,20 @@ const Logo = styled(Link)`
     ${NavLink}
     font-style: italic;  
 `;
- const MenuBars = styled.i`
+ const MenuBars = styled(FaBars)`
     display: none;
+
+    @media screen and (max-width: 768px){
+        display: block;
+        color: white;
+        height: 40px ;
+        width: 40px;
+        cursorL pointer;
+        position: absolute;
+        top:0;
+        right: 0;
+        transform: translate(-50%, 25%);
+    }
 `;
 const NavMenu = styled.div`
     display:flex;
